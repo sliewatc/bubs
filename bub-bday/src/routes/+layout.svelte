@@ -8,7 +8,7 @@
 
 <style lang="postcss">
     :global(html) {
-        background-color: rgba(255, 167, 224, 1);
+        background-color: rgb(255, 198, 236);
         width: 100vw;
         display: block;
     }

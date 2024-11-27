@@ -3,5 +3,5 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	base: "/bubs/",
-	plugins: [sveltekit()]
+	plugins: [sveltekit()],
 });
