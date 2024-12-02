@@ -34,7 +34,7 @@
         width: 100%;
     }
     #tall {
-        right: 10px;
+        right: 90px;
         top: 10px;
         animation-delay: -6s;
     }
@@ -49,6 +49,7 @@
         animation-delay: -8s;
     }
     .permimg {
+        display:inline;
         position: absolute;
         height: auto;
         width: auto;
@@ -58,14 +59,13 @@
         -moz-animation: spin 10s linear infinite;
         -o-animation: spin 10s linear infinite;
         animation: spin 10s linear infinite;
+        z-index: -1;
     }
     :global(html) {
         background-color: rgb(255, 198, 236);
         width: 100vw;
         display: block;
         color: rgb(245, 245, 245);
-        text-shadow: rgba(35, 7, 40, 0.3) 1px 0 10px;
-        /* text-shadow: rgb(35, 7, 40) 1px 0 20px; */
     }
     :global(body) {
         padding: 0;
@@ -82,7 +82,6 @@
     }
     :global(h1) {
         color: whitesmoke;
-        text-shadow: rgba(35, 7, 40, 0.3) 1px 0 10px;
     }
 
     @-webkit-keyframes spin {
